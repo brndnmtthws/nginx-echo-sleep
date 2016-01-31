@@ -13,4 +13,3 @@ EXPOSE 8080
 CMD /usr/local/openresty/nginx/sbin/nginx
 
 ADD nginx.conf /usr/local/openresty/nginx/conf/nginx.conf
-RUN chmod a+r /usr/local/openresty/nginx/conf/app.lua
